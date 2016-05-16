@@ -1,12 +1,12 @@
 RackspaceCloud Queue driver for Laravel
 ======================
-[![Latest Stable Version](https://poser.pugx.org/david-lonjon/laravel-queue-RackspaceCloud/v/stable)](https://packagist.org/packages/david-lonjon/laravel-queue-RackspaceCloud) [![Total Downloads](https://poser.pugx.org/david-lonjon/laravel-queue-RackspaceCloud/downloads)](https://packagist.org/packages/david-lonjon/laravel-queue-RackspaceCloud) [![Latest Unstable Version](https://poser.pugx.org/david-lonjon/laravel-queue-RackspaceCloud/v/unstable)](https://packagist.org/packages/david-lonjon/laravel-queue-RackspaceCloud) [![License](https://poser.pugx.org/david-lonjon/laravel-queue-RackspaceCloud/license)](https://packagist.org/packages/david-lonjon/laravel-queue-RackspaceCloud)
+WIP
 
 ####Installation
 
-Require this package in your composer.json and run composer update (IMPORTANT! DO NOT USE "dev-master"):
+Require this package in your composer.json and run composer update:
 
-	"davidlonjon/laravel-queue-RackspaceCloud": "5.2"
+	"davidlonjon/laravel-queue-rackspace-cloud": "dev-master"
 
 After composer update is finished you need to add ServiceProvider to your `providers` array in `app.php`:
 
@@ -45,6 +45,10 @@ Unit tests will be provided soon.
 ####Contribution
 You can contribute to this package by discovering bugs and opening issues. Enjoy!
 
-####Supported versions of Laravel
-4.0, 4.1, 4.2, 5.0, 5.1, 5.2
-The version is being matched by the release tag of this library.
+####Attribution
+This package has been guided and inspired by:
+* https://github.com/vladimir-yuldashev/laravel-queue-rabbitmq
+* https://github.com/tailwind/laravel-rackspace-cloudqueue
+
+####Supported versions of Laravel/Lumen
+TBC
