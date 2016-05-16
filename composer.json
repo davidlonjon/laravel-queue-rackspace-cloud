@@ -1,6 +1,5 @@
 {
   "name": "davidlonjon/laravel-queue-RackspaceCloud",
-  "version": "5.2",
   "description": "RackspaceCloud driver for Laravel/Lumen Queue",
   "license": "MIT",
   "authors": [
@@ -13,7 +12,7 @@
     "php": ">=5.5.9",
     "illuminate/support": "5.2.*",
     "illuminate/queue": "5.2.*",
-    "rackspace/php-opencloud": "dev-master",
+    "rackspace/php-opencloud": "dev-master"
   },
   "autoload": {
     "psr-0": {
