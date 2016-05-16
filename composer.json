@@ -19,5 +19,5 @@
       "YonderWeb\\LaravelQueueRackspaceCloud": "src/"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "dev"
 }
