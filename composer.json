@@ -1,5 +1,5 @@
 {
-  "name": "davidlonjon/laravel-queue-RackspaceCloud",
+  "name": "davidlonjon/laravel-queue-rackspace-cloud",
   "description": "RackspaceCloud driver for Laravel/Lumen Queue",
   "license": "MIT",
   "authors": [
