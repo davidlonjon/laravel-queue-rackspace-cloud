@@ -49,9 +49,8 @@ class RackspaceCloudConnector implements ConnectorInterface
 
         if ( $this->service === null ) {
             $this->service = $this->connection->queuesService(
-                Service::DEFAULT_NAME,
-                $config['region'],
-                array_get($config, 'urlType', 'internalURL')
+                null,
+                $config['region']
             );
         }
 
