@@ -102,7 +102,7 @@ class RackspaceCloudQueue extends Queue implements QueueContract
      * Pop the next job off of the queue.
      *
      * @param  string $queue
-     * @return \Illuminate\Queue\Jobs\Job|null|RackspaceCloudQueueJob
+     * @return \Illuminate\Queue\Jobs\Job|null|RackspaceCloudJob
      */
     public function pop($queue = null)
     {
@@ -120,7 +120,7 @@ class RackspaceCloudQueue extends Queue implements QueueContract
 
         if ($response and $response->valid()) {
             $message = $response->current();
-            return new RackspaceCloudQueueJob($this->container, $cloudQueue, $queue, $message);
+            return new RackspaceCloudJob($this->container, $cloudQueue, $queue, $message);
         }
     }
 
